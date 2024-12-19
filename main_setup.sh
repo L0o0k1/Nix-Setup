@@ -20,8 +20,8 @@ ch_root(){
 # --------------------------
 source scripts/system_update.sh
 source scripts/package_installation.sh
-source scripts/user_management.sh
 source scripts/ssh_config.sh
+source scripts/user_management.sh
 source scripts/firewall_setup.sh
 source scripts/web_server_install.sh
 source scripts/security_hardening.sh

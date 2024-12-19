@@ -14,6 +14,7 @@ installing_Packges() {
         "traceroute"
         "fail2ban"
         "auditd"
+        ## You can add What ever you want in here
     )
     if command -v apt-get &> /dev/null; then
         apt-get install -y "${PACKAGES[@]}"
