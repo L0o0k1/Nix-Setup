@@ -35,7 +35,7 @@ mainFun() {
     create_admin_user
     configure_ssh
     setup_firewall
-    install_web_server
+    installing_web_server
     apply_security_hardening
 
     logs "Server Setup Completed Successfully!"
