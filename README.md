@@ -48,5 +48,3 @@ The script is divided into several functions, each responsible for a specific ta
 Use this script at your own risk. Ensure you understand each part of the script before running it on a production server.
 
 ---
-
-Feel free to customize the `README.md` content as per your specific requirements. If there's anything more you'd like to add, let me know!
