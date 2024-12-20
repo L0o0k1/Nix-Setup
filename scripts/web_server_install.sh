@@ -1,4 +1,8 @@
+#!/bin/bash
+
+# Function to install and configure a web server
 installing_web_server() {
+    # Create the default index.html file
     cat > /var/www/html/index.html << EOL
 <!DOCTYPE html>
 <html>
@@ -9,11 +13,13 @@ installing_web_server() {
 </body>
 </html>
 EOL
-# ------------------------
-# Ensure nginx is running.
-# ------------------------
-systemctl enable nginx
-systemctl restart nginx
 
-logs "Nginx Web Server Installed and Configured"
+    # ------------------------
+    # Ensure nginx is running
+    # ------------------------
+    systemctl enable nginx
+    systemctl restart nginx
+
+    # Log the installation and configuration of the Nginx web server
+    logs "Nginx Web Server Installed and Configured"
 }
